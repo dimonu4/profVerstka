@@ -1,0 +1,25 @@
+.section--collection{
+    min-height: 600px;
+    
+}
+
+.collection__box {
+    text-align: center;
+    padding: 65px 292px;
+    box-sizing: border-box;
+}
+
+.card__btn__product {
+    border: 1px solid #F26376;
+    color: #F26376;
+    outline: none;
+    background: none;
+    padding: 10px 16px 9px 13px;
+    font-size: 14px;
+    font-family: Lato;
+    &:hover{
+        border: 1px solid #fff;
+        color: #fff;
+        background: #F26376;
+    }
+}
