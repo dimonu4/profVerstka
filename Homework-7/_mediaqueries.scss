@@ -1,0 +1,178 @@
+@media screen and (max-width:768px){
+
+    .section--intro{
+        height: 367px;
+    }
+
+    .top__image {
+        max-height: 367px;
+    }
+
+    .brand__header {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+        color: #222222;
+        margin-bottom: 0;
+    }
+    
+    .brand__p {
+        font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    margin-bottom: 0;
+    }
+
+    .brand__wrapper {
+        width: 311px;
+    }
+
+    .section--advantages .section__wrapper{
+        flex-direction: column;
+    }
+
+    .section--subscribed .section__wrapper{
+    flex-direction: column;     
+    }
+
+    .footer__wrapper{
+        padding: 0 32px;
+    }
+
+    .social-icons {
+        padding: 24px 0;
+    }
+
+    .section__wrapper {
+        &__deal {
+           padding-top: 20px;
+        }
+    }
+
+    .deals__row {
+        gap:20px;
+            .deals__card{
+             height: 167px;
+             &.deal_img-1{
+                background-position: top;
+            }
+            &.deal_img-2{
+                background-position: top;
+            }
+            &.deal_img-3{
+                background-position: top;
+            }
+            }
+            &--long {
+            .deals__card {
+                height: 116px;
+                margin: 20px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:730px){
+    
+    .section__wrapper{
+        justify-content: center;
+    }
+
+    .intro__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .brand__wrapper {
+        width: 263px;
+    }
+
+    .brand__header {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 46px;
+        color: #222222;
+        margin-bottom: 0;
+    }
+    
+    .brand__p {
+        font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 0;
+    }
+
+    
+
+    .overlay .menu {
+            min-width: 100%;
+        }
+    .mobile_hiden {
+        display: none;
+    }
+
+    .footer__wrapper{
+       flex-direction: column-reverse;
+    }
+
+    .social-icons {
+        padding: 50px 0;
+    }
+
+    .section__wrapper {
+        justify-content: center;
+        &__deal {
+           padding-top: 64px;
+        }
+    }
+
+    .deals__row{
+     gap:32px;
+     flex-direction: column;
+     padding: 0 15px;
+            .deals__card{
+             height: 247px;
+             &.deal_img-1{
+                background-position: top;
+            }
+            &.deal_img-2{
+                background-position: top;
+            }
+            &.deal_img-3{
+                background-position: top;
+            }
+            }
+            
+            &--long {
+            .deals__card {
+                height: 111px;
+                margin: 32px 0;
+            }
+        }
+    }
+
+    
+}
+
+
+
+@media screen and (max-width:768px) and (min-width:480.1px){
+
+    .section--intro{
+        height: 367px;
+        padding-right: 34px;
+    }
+
+}
